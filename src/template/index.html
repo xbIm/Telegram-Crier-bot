@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>CrierBot for Telegram</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		html{height:100%}*{margin:0;padding:0}body{font:normal 0.80em 'trebuchet ms', arial, sans-serif;background:#FFF;color:#555}p{padding:0 0 20px;line-height:1.7em}img{border:0}h1,h2,h3,h4,h5,h6{color:#362C20;letter-spacing:0;padding:0 0 5px}h1,h2,h3{font:normal 170% 'century gothic', arial;margin:0 0 15px;padding:15px 0 5px;color:#000}h2{font-size:160%;padding:9px 0 5px;color:#009FBC}h3{font-size:140%;padding:5px 0 0}h4,h6{color:#009FBC;padding:0 0 5px;font:normal 110% arial;text-transform:uppercase}h5,h6{color:#888;font:normal 95% arial;letter-spacing:normal;padding:0 0 15px}a,a:hover{outline:none;text-decoration:underline;color:#AEB002}a:hover{text-decoration:none}blockquote{margin:20px 0;padding:10px 20px 0;border:1px solid #E5E5DB;background:#FFF}ul{margin:2px 0 22px 17px}ul li{list-style-type:circle;margin:0 0 6px;padding:0 0 4px 5px;line-height:1.5em}ol{margin:8px 0 22px 20px}ol li{margin:0 0 11px}.left{float:left;width:auto;margin-right:10px}.right{float:right;width:auto;margin-left:10px}.center{display:block;text-align:center;margin:20px auto}#footer,#logo,#main,#menubar,#site_content{margin-left:auto;margin-right:auto}#header{background:#323534 url("back.png") repeat-x;height:177px}#banner{background:transparent url("banner.jpg") no-repeat;width:860px;height:180px;margin-bottom:20px;border:10px solid #DDD}#logo{width:880px;position:relative;height:140px;background:transparent}#logo #logo_text{position:absolute;top:10px;left:0}#logo h1,#logo h2{font:normal 300% 'century gothic', arial, sans-serif;border-bottom:0;text-transform:none;margin:0 0 0 9px}#logo_text h1,#logo_text h1 a,#logo_text h1 a:hover{padding:22px 0 0;color:#FFF;letter-spacing:0.1em;text-decoration:none}#logo_text h1 a .logo_colour{color:#E4EC04}#logo_text a:hover .logo_colour{color:#FFF}#logo_text h2{font-size:120%;padding:4px 0 0;color:#999}#menubar{width:880px;height:46px}ul#menu{float:right;margin:0}ul#menu li{float:left;padding:0 0 0 9px;list-style:none;margin:1px 2px 0 0;background:#5A5A5A url("tab.png") no-repeat 0 0}ul#menu li a{font:normal 100% 'trebuchet ms', sans-serif;display:block;float:left;height:20px;padding:6px 35px 5px 28px;text-align:center;color:#FFF;text-decoration:none;background:#5A5A5A url("tab.png") no-repeat 100% 0}ul#menu li.selected a{height:20px;padding:6px 35px 5px 28px}ul#menu li.selected{margin:1px 2px 0 0;background:#00C6F0 url("tab_selected.png") no-repeat 0 0}ul#menu li.selected a,ul#menu li.selected a:hover{background:#00C6F0 url("tab_selected.png") no-repeat 100% 0;color:#FFF}ul#menu li a:hover{color:#E4EC04}#site_content{width:880px;overflow:hidden;margin:20px auto 0;padding:0 0 10px}#sidebar_container{float:right;width:224px}.sidebar_top{width:222px;height:14px;background:transparent url("side_top.png") no-repeat}.sidebar_base{width:222px;height:14px;background:url("side_base.png") no-repeat}.sidebar{float:right;width:222px;padding:0;margin:0 0 16px}.sidebar_item{background:url("side_back.png") repeat-y;padding:0 15px;width:192px}.sidebar li a.selected{color:#444}.sidebar ul{margin:0}#content{text-align:left;width:620px;padding:0 0 0 5px;float:left}#content ul{margin:2px 0 22px}#content ul li,.sidebar ul li{list-style-type:none;background:url("bullet.png") no-repeat;margin:0;padding:0 0 4px 25px;line-height:1.5em}#footer{width:100%;font-family:'trebuchet ms', sans-serif;font-size:100%;height:80px;padding:28px 0 5px;text-align:center;background:#3B3939 url("footer.png") repeat-x;color:#A8AA94}#footer p{line-height:1.7em;padding:0 0 10px}#footer a{color:#A8AA94;text-decoration:none}#footer a:hover{color:#FFF;text-decoration:none}.search{color:#5D5D5D;border:1px solid #BBB;width:134px;padding:4px;font:100% arial, sans-serif}.form_settings{margin:15px 0 0}.form_settings p{padding:0 0 4px}.form_settings span{float:left;width:200px;text-align:left}.form_settings input,.form_settings textarea{padding:5px;width:299px;font:100% arial;border:1px solid #E5E5DB;background:#FFF;color:#47433F}.form_settings .submit{font:100% arial;border:0;width:99px;margin:0 0 0 212px;height:33px;padding:2px 0 3px;cursor:pointer;background:#3B3B3B;color:#FFF}.form_settings select,.form_settings textarea{font:100% arial;width:299px}.form_settings select{width:310px}.form_settings .checkbox{margin:4px 0;padding:0;width:14px;border:0;background:none}.separator{width:100%;height:0;border-top:1px solid #D9D5CF;border-bottom:1px solid #FFF;margin:0 0 20px}table{margin:10px 0 30px}table tr td,table tr th{background:#3B3B3B;color:#FFF;padding:7px 4px;text-align:left}table tr td{background:#E5E5DB;color:#47433F;border-top:1px solid #FFF}
+	</style>
+	<link rel="icon" type="image/gif"
+		href="data:image/gif;base64,R0lGODlhEAAQAIAAAAAAAAAAACH5BAkAAAEALAAAAAAQABAAAAIgjI+py+0PEQiT1lkNpppnz4HfdoEH2W1nCJRfBMfyfBQAOw==" />
+</head>
+
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="logo">
+				<div id="logo_text">
+					<!-- class="logo_colour", allows you to change the colour of the text -->
+					<h1>Crier Bot for <span class="logo_colour">Telegram</span></h1>
+					<h2>Simple. Contemporary. </h2>
+				</div>
+			</div>
+			
+		</div>
+		<div id="content_header"></div>
+		<div id="site_content">
+			<div id="content">
+				<h2>Reason?</h2>
+				<p>
+					Sometimes you want to receive any notifications in automatic mode, and you absolutely don’t want to reinvent the wheel for this. This bot is designed, if not to solve all the problems with sending notifications, then at least to greatly facilitate this task.	</p>
+				<p>
+					Add <a href=http://telegram.me/fcrierbot>@fcrierbot</a> to your telegram, the bot will give you an API Key (terribly secret and absolutely unique), 
+					after which everything that you send to http://crierbot.xbim.dev/apickey/send?message= will be sent to you in telegram. Just? yeah.
+				</p>
+				<p>
+					Curl example
+					<pre> 
+					#/bin/bash
+					curl http://crierbot.xbim.dev/$1/send?message=text
+					</pre>	
+				</p>
+				<p>
+					Inspired by <a href="https://github.com/hellsman/crierbot">https://github.com/hellsman/crierbot</a>
+				</p>
+			</div>
+		</div>
+		<div id="content_footer"></div>
+		<div id="footer">			
+			<p>Copyright &copy; xbim | <a href="http://xbim.dev">site</a> </p>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CrierBot", "src\CrierBot.fsproj", "{660126ED-E8FE-4C33-B706-04A4482D0721}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CrierBot.Tests", "test\CrierBot.Tests.fsproj", "{4DABA56A-3754-4CED-88DC-642835A9BE5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{660126ED-E8FE-4C33-B706-04A4482D0721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660126ED-E8FE-4C33-B706-04A4482D0721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660126ED-E8FE-4C33-B706-04A4482D0721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660126ED-E8FE-4C33-B706-04A4482D0721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DABA56A-3754-4CED-88DC-642835A9BE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DABA56A-3754-4CED-88DC-642835A9BE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DABA56A-3754-4CED-88DC-642835A9BE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DABA56A-3754-4CED-88DC-642835A9BE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

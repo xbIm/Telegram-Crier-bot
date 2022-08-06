@@ -1,0 +1,13 @@
+{ 
+  "profiles": {
+    "CrierBot": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://*:8443",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"        
+      }
+    }
+  }
+}
